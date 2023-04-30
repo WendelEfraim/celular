@@ -4,7 +4,7 @@ const minutos = document.getElementById('minutos');
 
 function atualizarRelogio() {
     let dateToday = new Date();
-    let hr = String(dateToday.getHours()+':');
+    let hr = dateToday.getHours();
     let min = dateToday.getMinutes();
 
     if(hr < 10) hr = '0' + hr;
