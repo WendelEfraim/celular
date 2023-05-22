@@ -187,6 +187,7 @@ body{
 }
 
 .cadeado{
+    cursor: pointer;
     top: 8%;
     left: 45%;
     position: absolute;
@@ -217,7 +218,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 160px;
+    width: 180px;
     height: 15px;
     top: 26%;
     color: #fff;
